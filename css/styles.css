@@ -11551,7 +11551,6 @@ section.resume-section .resume-section-content {
 
 .image-container .img-box img{
   margin-bottom: 1rem;
-  height: 100%;
 }
 
 .image-container .img-box p{
@@ -11561,7 +11560,6 @@ section.resume-section .resume-section-content {
 
 .project-btn{
   display: block;
-  /* height: 10rem; */
   margin-top: 2rem;
   margin-bottom: 1rem;
 }
