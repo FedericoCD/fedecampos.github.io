@@ -11463,8 +11463,8 @@ section.resume-section .resume-section-content {
   transition: opacity ease-in-out 0.35s;
 }
 #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
-  font-size: 1.25rem;
-  color: white;
+  /* font-size: 1.25rem; */
+  color: rgb(228, 228, 228);
 }
 #portfolio .portfolio-item .portfolio-link:hover .portfolio-hover {
   opacity: 1;
@@ -11625,7 +11625,7 @@ section.resume-section .resume-section-content {
 .goal-content {
   display: flex;
   flex: content;
-  margin: 2rem auto;
+  margin: 1.5rem 0 0 0;
 }
 
 
@@ -11636,12 +11636,13 @@ section.resume-section .resume-section-content {
   align-content: center;
   /* min-width: 250px; */
   margin: auto auto;
-  padding: 1.5rem;
+  padding: auto 1.5rem
 
 }
 
 .goal-content-left p {
  margin-top: 1rem;
+ margin-bottom: 2rem;
 
 }
 
@@ -11688,4 +11689,25 @@ section.resume-section .resume-section-content {
   margin: auto auto;
   flex-basis: 50%;
   padding: 1.5rem;
+}
+
+@media (max-width: 1200px) {
+ .proposal-box .proposal-content-box .proposal1{
+   flex-direction: column-reverse;
+
+ }
+ .proposal-box .proposal-content-box .proposal1-right{
+  margin: auto auto;
+
+}
+
+.proposal-box .proposal-content-box .proposal2{
+  flex-direction: column;
+
+}
+.proposal-box .proposal-content-box .proposal2-left{
+ margin: auto auto;
+
+}
+
 }
